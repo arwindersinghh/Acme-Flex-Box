@@ -1,0 +1,151 @@
+body {
+    margin : 0;
+    padding : 0;
+    background-color : white;
+}
+header {
+    display : flex;
+    color : white;
+    align-items : center;
+    justify-content : space-between;
+    background-color: dodgerblue;
+}
+.move-left{
+    width : 50%;
+}
+a {
+    text-decoration: none;
+    color : white;
+}
+
+h2 {
+    font-size : 2rem;
+    color : dimgrey;
+    margin-left : 2rem;
+}
+h1 {
+    flex :1;
+    padding-left : 25px;
+}
+ul {
+    display:flex;
+    flex : 1;
+    padding : 0;
+    list-style : none;
+    justify-content: space-around;
+}
+
+#user {
+    font-weight : bold;
+}
+#new-user {
+    display : flex;
+    justify-content : center;
+}
+#create-user{
+    color : dimgrey;
+    border : 1.5px solid dimgrey;
+    padding : 0px 10px 35px 10px; 
+    border-radius : 5px;
+    width : 30rem;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+}
+#create-user h1{
+    color : dimgrey;
+    font-size : 1.5rem;
+}
+.buttons {
+    text-align : center;   
+}
+#clear-button{
+    margin-right : -4px;
+    margin-top : 1.5rem;
+}
+#save-button{
+    color : white;
+    background-color : dodgerblue;
+}
+
+.input-item {
+    padding: 0.5rem 0;
+    display:flex;
+    justify-content : space-between;
+}
+.input-item label {
+    margin-bottom : 8px;
+}
+.input-item #first-name, #last-name {
+    width : 68.5%;
+}
+.input-item select {
+    width : 70%;
+    background-color: ghostwhite;
+}
+#users-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+.lowerboxes-text{
+    font-size : 15px;
+    text-align: center;
+    border: 2px solid dimgrey;
+    border-radius: 5px;
+    flex: 0 18rem ;
+    height : 10rem;
+    margin : 1rem;
+}
+.lowerboxes-text h3 {
+    color : dimgrey;
+    font-size : 1.2rem;
+}
+
+@media (max-width: 600px){
+    ul {
+        display : flex;
+        flex-direction : column;
+        padding-top : 2rem;
+        font-size : 1.5rem;
+    }
+    .move-left{
+        display : flex;
+        flex-direction : column;
+        justify-content : space-between;
+        
+    }
+    #users-section{
+        flex-direction: column;
+    }
+    .lowerboxes-text{
+        margin: 10px;
+
+    }
+    header {
+        flex-direction : column;
+        padding-left : 10px;
+    }
+    
+    header > *{
+        margin-right : auto;
+    }
+    h1 {
+        margin-left : -25px;
+    }
+    li{
+        line-height: 200%;
+    }
+    #create-user {
+        width: 90vw;
+    }
+    .input-item{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arwinder Singh Acme Layout</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Acme Layout</h1>
+            <div class="move-left">
+            <ul>
+             <li><a id = user href = '#' >Users</a></li>
+             <li><a href = '#' >Departments</a></li>   
+             <li><a href = '#' >Contacts</a></li>
+            </ul>
+        </div>
+        </header>
+        <h2>Users</h2>
+        <div id='new-user'>
+        <form id = 'create-user'>
+            <h1>Create A User</h1>
+            <div class='input-item'>
+                <label for='first-name'>First Name</label>
+                <input id='first-name' type='text' placeholder='Jane'>
+            </div>
+            <div class='input-item'>
+                <label for='last-name'>Last Name</label>
+                <input id='last-name' type='text' placeholder='Doe'>
+            </div>
+            <div class='input-item'>
+                <label for='department'>Department</label>
+                <select name='dept' id='dept' >
+                <option value='None'> --None-- </option>
+                <option value='Computer Science'> Computer Science </option>
+                <option value='Art'> Art </option>
+                <option value='Finance'> Finance </option>
+                </select>
+            </div>
+            
+            <div class='buttons'>
+                <button id= clear-button>Clear</button>
+                <button id=save-button>Save</button>
+            </div>
+
+        </form>
+    </div>
+    <div id='users-section'>
+        <div class='lowerboxes-text'>
+            <h3>User A</h3>
+            <p>Some text for the user</p>
+        </div>
+        <div class='lowerboxes-text'>
+            <h3>User A</h3>
+            <p>Some text for the user. Some text for the user</p>
+            <p>Some text for the user. Some text for the user</p>
+            <p>Some text for the user. Some text for the user</p>
+        
+        </div>
+        <div class='lowerboxes-text'>
+            <h3>User A</h3>
+            <p>Some text for the user</p>
+        </div><div class="lowerboxes-text">
+            <h3>User A</h3>
+            <p>Some text for the user</p>
+          </div>
+          <div class="lowerboxes-text">
+            <h3>User A</h3>
+            <p>Some text for the user</p>
+          </div>
+          <div class="lowerboxes-text">
+            <h3>User A</h3>
+            <p>Some text for the user</p>
+          </div>
+          <div class="lowerboxes-text">
+            <h3>User A</h3>
+            <p>Some text for the user</p>
+          </div>
+
+    </div>
+    </body>
+</html>
